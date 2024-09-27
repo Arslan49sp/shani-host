@@ -289,3 +289,13 @@ p {
 .card__body {
   padding: 2rem 3rem;
 }
+
+.card--primary .card__header {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.card--secondary .card__header {
+  background: var(--color-secondary);
+  color: #fff;
+}
